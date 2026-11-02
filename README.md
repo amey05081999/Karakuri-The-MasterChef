@@ -32,14 +32,16 @@ To demonstrate its capabilities, Karakuri has engineered this signature gourmet 
 	• The Jus: A 72-hour bone-marrow Espagnole reduction, clarified via agar-agar freeze-thaw filtration into a crystalline, deeply reflective consommé-pour.
 
   
+
 📋 Prerequisites & Local Setup
 
-1. Install Python Libraries:bash
-pip install pyautogen
+ince you are running models locally via Ollama, this HTML interface connects directly to your local instance and presents the group discussion in a conversational UI.
+
+📋 Additional Prerequisites
+
+You need to install gradio alongside the existing libraries:
+bash
+pip install gradio pyautogen
 Use code with caution.
-2. Set up Ollama (For Free/Local Operation):
-	• Download and install Ollama from ollama.com.
-	• Pull a high-performance open-source model like llama3.1 or mistral by running this command in your terminal:bash
-ollama run llama3.1
-Use code with caution.
-	• Leave the Ollama application running in the background.
+Make sure Ollama is running in the background (ollama run llama3.1).
+
